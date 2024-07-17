@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Client Dashboard
+
+Welcome to the AJSI Creative client dashboard. This project is built with Next.js and includes features and dependencies that make it a robust and dynamic platform for managing client projects and communications.
+
+## Table of Contents
+
+- [Client Dashboard](#client-dashboard)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Development](#development)
+  - [Build and Deployment](#build-and-deployment)
+  - [Features](#features)
+  - [Dependencies](#dependencies)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these simple steps.
 
-```bash
+### Prerequisites
+
+Ensure you have the following software installed:
+
+- [Node.js](https://nodejs.org/) (v18 or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repo
+
+   ```sh
+   git clone https://github.com/yourusername/client-dashboard.git
+   ```
+
+2. Navigate to the project directory
+
+   ```sh
+   cd client-dashboard
+   ```
+
+3. Install NPM packages
+
+   ```sh
+   npm install
+   ```
+
+   or if you are using yarn
+
+   ```sh
+   yarn install
+   ```
+
+## Development
+
+To start the development server, run:
+
+```sh
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or with yarn
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This will start the application in development mode, and you can view it in the browser at `http://localhost:3000`.
 
-## Learn More
+## Build and Deployment
 
-To learn more about Next.js, take a look at the following resources:
+To build the application for production, run:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+or with yarn
 
-## Deploy on Vercel
+```sh
+yarn build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This will create an optimized build of the project in the `.next` directory.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To start the production server, run:
+
+```sh
+npm start
+```
+
+or with yarn
+
+```sh
+yarn start
+```
+
+## Features
+
+- **Next.js 14.2.5**: The React framework for production
+- **React 18**: A JavaScript library for building user interfaces
+- **Framer Motion**: An open-source motion library for React
+- **Tailwind CSS**: A utility-first CSS framework
+- **TypeScript**: A superset of JavaScript that adds static typing
+
+## Dependencies
+
+The project relies on the following dependencies:
+
+- `framer-motion`: ^12.0.0-alpha.0
+- `next`: 14.2.5
+- `react`: ^18
+- `react-dom`: ^18
+
+And the following dev dependencies:
+
+- `@types/node`: ^20
+- `@types/react`: ^18
+- `@types/react-dom`: ^18
+- `eslint`: ^8
+- `eslint-config-next`: 14.2.5
+- `postcss`: ^8
+- `tailwindcss`: ^3.4.1
+- `typescript`: ^5
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to be, learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+No licensing at this time.

@@ -1,3 +1,7 @@
+'use client';
+
+import { motion } from 'framer-motion';
+
 const LogInForm = () => {
 	return (
 		<form className='flex flex-col gap-8'>
@@ -19,9 +23,14 @@ const LogInForm = () => {
 					className='rounded-md p-2 bg-white/20 border border-white'
 				/>
 			</div>
-			<button type='submit' className='mt-4 rounded-md py-2 px-4 bg-pink-500 text-pink-950 uppercase font-bold'>
+			<motion.button
+				whileHover={{ backgroundColor: '#f472b6' }}
+				transition={{ duration: 1 }}
+				type='submit'
+				className='mt-4 rounded-md py-2 px-4 bg-pink-500 text-pink-950 uppercase font-bold'
+			>
 				Log in
-			</button>
+			</motion.button>
 		</form>
 	);
 };
